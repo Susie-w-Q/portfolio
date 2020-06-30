@@ -1,2 +1,68 @@
 /*Mobile Styles*/
 
+body {
+  margin: 0;
+  background-color: rgb(201, 135, 201);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#projects,
+#about-me,
+#contact {
+  margin-right: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.hero {
+  height: 200px;
+
+ 
+  background: url("https://cdn.pixabay.com/photo/2014/12/17/21/30/wild-flowers-571940__340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: purple;
+}
+
+h2.on-top {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(226, 19, 226);
+    font-family: cursive;
+    position: relative;
+    bottom: 95px;
+
+}
+
+.hero .transparent-background {
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity: 65%;
+    margin: 63px 0 0 400px;
+}
+
+
+.contact-form {
+    height: 35px;
+    margin: 170px 50px 0 0;
+    display: flex;
+    justify-content: flex-end;
+
+   
+}
+.contact-form button {
+    background-color: rebeccapurple;
+    color: seashell;
+}
