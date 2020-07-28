@@ -1,0 +1,1145 @@
+@media screen and (max-width: 600px) {
+}
+
+/*Styles-> All Homepage Styles-> Nav-> Childcare Page, Food Service Page-> 
+  Kats Kash App Linked Page & College Support Page-> Cafe Special Print Media Query*/
+
+@media screen and (min-width: 600px) {
+  /*Homepage Main Styles*/
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body.index-bg {
+    background-image: url(https://cdn.pixabay.com/photo/2019/06/10/11/35/learning-4264032_1280.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: vertical;
+  }
+
+  /*home page heading styles*/
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 200px;
+  }
+
+  .heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+
+  .heading h1 span {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 35px;
+  }
+  /*End Homepage Heading Styles*/
+
+  /*home page images*/
+
+  .home-pg-images {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  /*Homepage Childcare Styles*/
+
+  .childcare-homepg-img-cont {
+    width: 300px;
+    height: 200px;
+  }
+
+  .childcare-homepg-img-cont img {
+    max-width: 100%;
+    height: 100%;
+    border: 5px solid black;
+  }
+
+  .childcare-homepg-img-cont p {
+    color: black;
+    font-family: inherit;
+    font-size: 30px;
+    text-align: center;
+  }
+  .childcare-homepg-img-cont p a {
+    text-decoration: none;
+  }
+
+  /* Homepage Food Service Styles*/
+
+  .foodservice-homepg-img-cont {
+    width: 300px;
+    height: 200px;
+  }
+
+  .foodservice-homepg-img-cont img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid black;
+  }
+
+  .foodservice-homepg-img-cont p {
+    color: black;
+    font-family: inherit;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .foodservice-homepg-img-cont p a {
+    text-decoration: none;
+  }
+
+  /* HomePage College Support Styles*/
+
+  .collegesupport-homepg-img-cont {
+    width: 300px;
+    height: 200px;
+  }
+  .collegesupport-homepg-img-cont img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid black;
+  }
+
+  .collegesupport-homepg-img-cont p {
+    color: black;
+    font-family: inherit;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .collegesupport-homepg-img-cont p a {
+    text-decoration: none;
+  }
+
+  /*Home Page Footer Styles*/
+
+  .homepg-logo img {
+    position: relative;
+    width: 50px;
+    height: auto;
+  }
+
+  .homepg-footer {
+    height: 130px;
+    margin-top: 125px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+
+  .homepg-footer span {
+    font-weight: bold;
+  }
+
+  /*End Home Page*/
+
+  /*Nav Styles*/
+
+  nav {
+    width: 100%;
+    background-color: rgb(50, 30, 99);
+    height: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    z-index: 1;
+    position: absolute;
+  }
+
+  nav a {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 12px 30px;
+    float: left;
+    text-decoration: none;
+  }
+
+  nav .dropdown {
+    float: left;
+    text-align: center;
+    position: relative;
+  }
+
+  nav .dropdown button {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 13px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    width: 100%;
+  }
+
+  nav .dropdown:hover,
+  nav a:hover {
+    background-color: rgb(185, 168, 219);
+  }
+
+  nav .dropdown .dropdown-content {
+    display: none;
+  }
+
+  nav .dropdown button:hover {
+    cursor: pointer;
+  }
+
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background-color: rgb(195, 184, 218);
+    width: 100%;
+  }
+
+  nav .dropdown .dropdown-content a {
+    margin-left: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: black;
+    float: none;
+    width: 100%;
+  }
+  .nav-container {
+    margin-left: 260px;
+  }
+
+  /*End Nav styles*/
+
+  /*Nav Linked Pages Styles*/
+
+  /*Order Online Pages Styles Will Eventually Go Here*/
+
+  /*Cafe Specials Page Styles*/
+
+  .cafe-specials-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
+
+  .cafe-specials-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .cafe-specials-heading p {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+
+  /*Cafe Specials Page Images*/
+  .awning-image img {
+    /*position: absolute;*/
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+  }
+
+  .cafe-specials-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .cafe-specials-wrapper span {
+    font-weight: bold;
+  }
+  .cafe-specials-pizza-img-cont {
+    margin-left: 85px;
+    margin-right: 65px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cafe-specials-pizza-img-cont .cafe-specials-pizza-img-text {
+    text-align: center;
+  }
+  .cafe-specials-pizza-img-cont .cafe-specials-pizza-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+  }
+  .cafe-specials-pizza-img-cont img {
+    border: 3px solid red;
+    width: 350px;
+    height: 230px;
+  }
+
+  .cafe-specials-salad-img-cont .cafe-specials-salad-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 80px;
+  }
+
+  .cafe-specials-salad-img-cont img {
+    border: 3px solid red;
+    margin-left: 75px;
+    width: 350px;
+    height: 230px;
+  }
+
+  .cafe-specials-burger-img-cont .cafe-specials-burger-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 120px;
+  }
+  .cafe-specials-burger-img-cont img {
+    border: 3px solid red;
+    margin-left: 125px;
+    width: 350px;
+    height: 230px;
+  }
+
+  /*All Location & Map Pages Styles*/
+
+  .location-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 200px;
+  }
+
+  .location-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .location-heading h1 span {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 35px;
+  }
+
+  /*Location Page Textbox Styles*/
+
+  /*location & map page styles*/
+
+  #map {
+    max-width: 600px;
+    height: auto;
+  }
+
+  .location-textbox span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  #location-managers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .location-childcare {
+    line-height: 5px;
+
+    margin-bottom: 30px;
+  }
+  .location-childcare p {
+    font-size: 20px;
+  }
+
+  .location-foodservice {
+    line-height: 5px;
+  }
+
+  .location-foodservice p {
+    font-size: 20px;
+  }
+
+  .location-foodservice {
+    line-height: 5px;
+    margin-bottom: 30px;
+  }
+
+  #location-managers,
+  span,
+  p,
+  a {
+    line-height: 5px;
+  }
+
+  /*City Location & Map Page Styles*/
+
+  body.city-location-bg {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/33/globe-2491984_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: vertical;
+  }
+
+  #city-location-map iframe {
+    width: 355px;
+    height: 400px;
+    border: 5px solid rgb(55, 14, 160);
+    float: right;
+    margin-right: 75px;
+    margin-top: 50px;
+  }
+
+  .city-location-textbox {
+    width: 345px;
+    height: 360px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 5px solid rgb(55, 14, 160);
+    color: rgb(50, 30, 99);
+    padding-top: 40px;
+    text-align: center;
+    margin: 50px 0 0 75px;
+  }
+
+  /*North Location & Map Page Styles*/
+
+  body.north-location-bg {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/32/globe-2491982_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: vertical;
+  }
+
+  #north-location-map iframe {
+    width: 355px;
+    height: 400px;
+    border: 5px solid rgb(55, 14, 160);
+    float: right;
+    margin-right: 75px;
+    margin-top: 50px;
+  }
+
+  .north-location-textbox {
+    width: 345px;
+    height: 360px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 5px solid rgb(55, 14, 160);
+    color: rgb(50, 30, 99);
+    padding-top: 40px;
+    text-align: center;
+    margin: 50px 0 0 75px;
+  }
+
+  /*South Location & Map Page Styles*/
+
+  body.south-location-bg {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/23/35/globe-2491989_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: vertical;
+  }
+
+  #south-location-map iframe {
+    width: 355px;
+    height: 400px;
+    border: 5px solid rgb(55, 14, 160);
+    float: right;
+    margin-right: 75px;
+    margin-top: 50px;
+  }
+
+  .south-location-textbox {
+    width: 345px;
+    height: 360px;
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 5px solid rgb(55, 14, 160);
+    color: rgb(50, 30, 99);
+    padding-top: 40px;
+    text-align: center;
+    margin: 30px 0 0 75px;
+  }
+
+  /*End Location & Maps Pages*/
+
+  /*Contact Us Page Styles*/
+
+  .contactus-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 155px;
+  }
+
+  .contactus-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+
+  .contactus-heading h1 span {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-bottom: 35px;
+  }
+
+  /*Contact Us Form Styles*/
+
+  #contactus-service-forms {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #asc-contact-form {
+    background-color: rgb(50, 30, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 550px;
+    margin-left: 100px;
+  }
+
+  select {
+    width: 234px;
+    padding: 15px;
+    margin: 6px;
+  }
+
+  input:hover {
+    border: 1px solid rgb(50, 30, 99);
+  }
+
+  input {
+    width: 200px;
+    padding: 15px;
+    margin: 6px;
+    color: rgb(50, 30, 99);
+  }
+
+  .contactus-form-cont {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+  }
+
+  /*Gift Certs Dropdown*/
+
+  .contactus-dropdown-giftcerts {
+    background-color: rgb(50, 30, 99);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    font-size: 20px;
+    color: white;
+    margin-left: 90px;
+    padding: 20px 0 20px 0;
+  }
+
+  .asc-gift-certs-img img {
+    width: 200px;
+    height: 175px;
+  }
+
+  .contactus-amount-chosen:hover,
+  a:hover {
+    background-color: rgb(185, 168, 219);
+  }
+
+  .contactus-amount-chosen:hover {
+    display: none;
+  }
+
+  /*Comment Box Styles*/
+
+  textarea {
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+  }
+
+  .submit {
+    background-color: rgb(50, 30, 99);
+    color: white;
+  }
+
+  .contactus-aboutus {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 150px;
+    border: 2px solid black;
+    padding: 0 20px;
+    background-color: rgb(50, 30, 99);
+    color: white;
+  }
+  .contactus-aboutus h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contactus-aboutus a {
+    font-size: 16px;
+    color: white;
+  }
+
+  .contactus-aboutus p {
+    line-height: 18px;
+  }
+
+  .contactus-logo {
+    background-color: white;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactus-aboutus .contactus-logo img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  /*Childcare Page - Linked from Homepage Styles*/
+
+  .childcare-img-cont {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin: 70px 0 0 150px;
+  }
+  .childcare-logo img {
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin: 0 0 20px 90px;
+  }
+
+  img {
+    border: none;
+    width: 400px;
+    height: auto;
+  }
+
+  .childcare-img-text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    width: 60%;
+  }
+
+  .childcare-img-cont .childcare-img-text span {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 50px;
+    color: purple;
+    margin-left: 10px;
+  }
+
+  .childcare-text {
+    border: 3px solid purple;
+    width: 650px;
+    text-align: center;
+    float: right;
+    margin: 50px 200px 0 0;
+  }
+
+  .childcare-text span {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    line-height: 1px;
+    font-size: 30px;
+    color: purple;
+  }
+
+  .childcare-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    line-height: 1px;
+    font-size: 25px;
+  }
+
+  /*End Childcare Styles*/
+
+  /* Food Service & Catering Page - Linked from Homepage Styles*/
+
+  .foodservice-bg {
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/14/07/56/wood-2142216_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .foodservice-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
+
+  .foodservice-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .foodservice-heading p {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 35px;
+  }
+
+  /*Food Service Page Images*/
+
+  .foodservice-catering-imgages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .foodservice-img-cont .foodservice-img-text p a {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 25px;
+    color: purple;
+    float: left;
+  }
+  .foodservice-img-cont img {
+    border: 3px solid rgb(50, 30, 99);
+    margin-right: 75px;
+    width: 350px;
+  }
+
+  .catering-img-cont .catering-img-text p a {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 25px;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 70px;
+  }
+
+  .catering-img-cont img {
+    border: 3px solid rgb(50, 30, 99);
+    margin-left: 75px;
+    width: 350px;
+  }
+
+  /*Food Service Text*/
+
+  /*All Food Service Footer Text*/
+
+  #foodservice-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #foodservice-footer span {
+    font-size: 25px;
+    color: purple;
+    font-weight: bold;
+  }
+
+  .foodservice-hyper {
+    margin-top: 20px;
+  }
+
+  /*By Campus Food Service Footer*/
+
+  .city-foodservice-footer {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .north-foodservice-footer {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .south-foodservice-footer {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* Kats Kash Meal Plan Application Page - Linked From Food Service Page*/
+
+  #katskash-purchase-form {
+    background-color: rgb(50, 30, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 150px;
+    height: 545px;
+  }
+
+  input {
+    width: 200px;
+    padding: 15px;
+    margin: 6px;
+  }
+
+  select {
+    width: 234px;
+    padding: 15px;
+    margin: 6px;
+  }
+
+  input:hover {
+    border: 1px solid rgb(50, 30, 99);
+  }
+
+  /*Kats Kash Dropdown*/
+
+  .katskash-cont {
+    width: 300px;
+  }
+
+  .katskashapp-dropdown {
+    background-color: rgb(50, 30, 99);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: white;
+    margin: 0 30px 0 30px;
+    border: 2px solid black;
+  }
+
+  .katskashapp-dropdown .amount-chosen {
+    display: none;
+  }
+
+  .katskashapp-dropdown button:hover {
+    cursor: pointer;
+  }
+
+  .katskashapp-katskash-recipient-form p {
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  /*Kats Kash Recipient Form*/
+
+  .katskashapp-katskash-recipient-form {
+    background-color: rgb(50, 30, 99);
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+  }
+
+  /*Terms of Service Container*/
+
+  .katskash-terms-cont {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(50, 30, 99);
+    background-color: rgb(255, 255, 255, 0.9);
+    width: 400px;
+    height: 490px;
+    padding: 0;
+  }
+  .katskash-meal-plan-img {
+    width: 246px;
+    height: 155px;
+  }
+
+  .katskash-meal-plan-img img {
+    width: 100%;
+    border: 5px solid rgb(50, 30, 99);
+  }
+
+  .submit {
+    position: absolute;
+    background-color: rgb(50, 30, 99);
+    color: white;
+    width: 155px;
+    margin-top: 70px;
+  }
+  #katskashapp-TOS {
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkbox {
+    margin: 0;
+  }
+
+  .katskash-terms-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .katskash-terms-cont input {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*College Support Forms & Guidelines Styles*/
+
+  .collegesupport-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 150px;
+  }
+
+  .collegesupport-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+  .collegesupport-heading-text p {
+    font-size: 30px;
+    margin-left: 150px;
+  }
+
+  .collegesupport-forms-img-cont img {
+    width: 150px;
+    height: 100%;
+    margin-left: 275px;
+  }
+
+  .collegesupport-guidelines-img-cont {
+    width: 150px;
+    background-color: white;
+  }
+
+  .collegesupport-guidelines-img-cont img {
+    width: 150px;
+    height: 150px;
+    margin-left: 275px;
+  }
+
+  .collegesupport-forms-pdf-list {
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 700px;
+    margin: 20px 0 0 10px;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .collegesupport-forms-pdf-list p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .collegesupport-guidelines-pdf-list {
+    font-size: 20px;
+    width: 700px;
+    margin: 20px 0 0 780px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .collegesupport-guidelines-pdf-list p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .collegesupport-footer-cont {
+    line-height: 1px;
+    margin: 20px 0 0 590px;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+  .collegesupport-footer {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .collegesupport-footer span {
+    font-weight: bold;
+    color: purple;
+    margin-top: 40px;
+  }
+}
+
+/*Cafe Specials Media Print Query Styles*/
+
+@media print {
+  nav,
+  .nav-container,
+  .dropdown,
+  .dropdown-content,
+  .awning-image {
+    display: none;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+
+  .cafe-specials-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
+
+  .cafe-specials-heading h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .cafe-specials-heading p {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+  }
+
+  .cafe-specials-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .cafe-specials-wrapper span {
+    font-weight: bold;
+  }
+
+  .cafe-specials-pizza-img-cont .cafe-specials-pizza-img-text {
+    text-align: center;
+  }
+  .cafe-specials-pizza-img-cont .cafe-specials-pizza-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .cafe-specials-salad-img-cont .cafe-specials-salad-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 80px;
+  }
+
+  .cafe-specials-burger-img-cont .cafe-specials-burger-img-text p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-left: 120px;
+  }
+
+  #foodservice-footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
